@@ -32,3 +32,35 @@ The task is episodic, and in order to solve the environment, your agents must ge
 * This yields a single score for each episode.
 
 The environment is considered solved, when the average (over 100 episodes) of those scores is at least +0.5.
+
+# Getting Started
+
+## Dependencies
+
+To set up your python environment to run the code in this repository, follow the instructions below.
+
+1. Create (and activate) a new environment with Python 3.6.
+
+	- __Windows__:
+	```bash
+	conda create --name drlnd python=3.6 
+	activate drlnd
+	```
+	- __Linux__ or __Mac__:
+	```bash
+	conda create --name drlnd python=3.6 
+	source activate drlnd
+	```
+
+2. Install pytorch >= 1.4.0
+
+3. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.  
+	- Next, install the **classic control** environment group by following the instructions [here](https://github.com/openai/gym#classic-control).
+	- Then, install the **box2d** environment group by following the instructions [here](https://github.com/openai/gym#box2d).
+	
+4. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
+```bash
+git clone https://github.com/erichans/udacity-deeprl-collaboration-competition.git
+cd udacity-deeprl-collaboration-competition/python
+pip install .
+```
