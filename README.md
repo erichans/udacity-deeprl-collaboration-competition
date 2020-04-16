@@ -79,12 +79,12 @@ You can tune the model by changing the following hyperparameters in following fi
 
 ### multiagent.py
 * EXPLORATION_NOISE = 0.1 (Noise Scale added to each predicted action from the agents)
-* WARMUP_TIMESTEPS = 1000 or 1024 (Number of steps before training starts. For faster convergence and more stable results after solving: __Linux__: 1000. __Windows 10__: 1024 )
+* WARMUP_TIMESTEPS = 1000 or 1024 (Number of steps before training starts. For faster convergence and more stable results after solving: __Ubuntu 16.04__: 1000. __Windows 10__: 1024)
 * UPDATES_PER_STEP = 4 (Number of updates of the neural networks per timestep)
 
 ### agent.py
 * BUFFER_SIZE = 1.000.000
-* BATCH_SIZE = 1000 or 1024 (for faster convergence and more stable results after solving: __Linux__: 1000. __Windows 10__: 1024 )
+* BATCH_SIZE = 1000 or 1024 (for faster convergence and more stable results after solving: __Ubuntu 16.04__: 1000. __Windows 10__: 1024)
 * GAMMA = .99 (discount factor)
 * TAU = 5e-2 (soft update from local actor and critic network parameters to their respective target network parameters)
 * LR_ACTOR = 1e-3 (Actor local learning rate)
