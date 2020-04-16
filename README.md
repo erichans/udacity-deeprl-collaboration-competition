@@ -97,3 +97,11 @@ You can tune the model by changing the following hyperparameters in following fi
 * prob_alpha = 0.6 (Alpha determines how much prioritization is used)
 * beta = 0.4 (Importance-sampling correction exponent)
 * EPSILON = 1e-5 (Small positive constant that prevents transitions not being revisited once their error is zero in the Prioritized Experience Replay)
+
+## Report
+To see more details like:
+* Learning Algorithm 
+* Plot of Rewards
+* Ideas for Future Work
+
+Check the [Report](/Report.md)
