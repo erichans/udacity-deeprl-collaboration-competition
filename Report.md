@@ -92,5 +92,67 @@ Agent 1 - Twin Critic Target TD3 -> TwinCritic(
 
 # Plot of Rewards
 
+## Warmup before training (No Learning - Random outputs to explore)
+```
+Score: 0.00/-0.01 -> Ep. 1/500 - Avg Max Global Score: 0.00
+Score: -0.01/0.00 -> Ep. 10/500 - Avg Max Global Score: 0.02
+Score: 0.00/-0.01 -> Ep. 20/500 - Avg Max Global Score: 0.02
+Score: 0.00/-0.01 -> Ep. 30/500 - Avg Max Global Score: 0.02
+Score: 0.00/-0.01 -> Ep. 40/500 - Avg Max Global Score: 0.02
+Score: 0.00/0.09 -> Ep. 50/500 - Avg Max Global Score: 0.02
+Score: 0.09/0.10 -> Ep. 51/500 - Avg Max Global Score: 0.02
+Score: -0.01/0.00 -> Ep. 52/500 - Avg Max Global Score: 0.02
+Score: 0.00/-0.01 -> Ep. 53/500 - Avg Max Global Score: 0.02
+Score: 0.10/-0.01 -> Ep. 54/500 - Avg Max Global Score: 0.02
+```
+ 
+ ## Training
+ 
+```
+Score: -0.01/0.10 -> Ep. 55/500 - Avg Max Global Score: 0.02
+Score: 0.00/-0.01 -> Ep. 60/500 - Avg Max Global Score: 0.02
+Score: -0.01/0.00 -> Ep. 70/500 - Avg Max Global Score: 0.02
+Score: -0.01/0.00 -> Ep. 80/500 - Avg Max Global Score: 0.02
+Score: 0.00/-0.01 -> Ep. 90/500 - Avg Max Global Score: 0.02
+Score: -0.01/0.00 -> Ep. 100/500 - Avg Max Global Score: 0.01
+Score: 0.00/-0.01 -> Ep. 110/500 - Avg Max Global Score: 0.01
+Score: 0.00/-0.01 -> Ep. 120/500 - Avg Max Global Score: 0.02
+Score: 0.00/-0.01 -> Ep. 130/500 - Avg Max Global Score: 0.02
+Score: 0.00/-0.01 -> Ep. 140/500 - Avg Max Global Score: 0.03
+Score: 0.10/-0.01 -> Ep. 150/500 - Avg Max Global Score: 0.03
+Score: 0.00/0.09 -> Ep. 160/500 - Avg Max Global Score: 0.04
+Score: 0.10/-0.01 -> Ep. 170/500 - Avg Max Global Score: 0.05
+Score: 0.00/0.09 -> Ep. 180/500 - Avg Max Global Score: 0.05
+Score: 0.19/0.30 -> Ep. 190/500 - Avg Max Global Score: 0.06
+Score: 0.10/0.09 -> Ep. 200/500 - Avg Max Global Score: 0.07
+Score: 0.10/0.09 -> Ep. 210/500 - Avg Max Global Score: 0.08
+Score: -0.01/0.10 -> Ep. 220/500 - Avg Max Global Score: 0.08
+Score: 0.20/0.09 -> Ep. 230/500 - Avg Max Global Score: 0.09
+Score: 0.20/0.09 -> Ep. 240/500 - Avg Max Global Score: 0.10
+Score: 0.29/0.30 -> Ep. 250/500 - Avg Max Global Score: 0.11
+Score: 0.10/-0.01 -> Ep. 260/500 - Avg Max Global Score: 0.11
+Score: 0.10/-0.01 -> Ep. 270/500 - Avg Max Global Score: 0.12
+Score: 0.69/0.70 -> Ep. 280/500 - Avg Max Global Score: 0.13
+Score: 0.10/-0.01 -> Ep. 290/500 - Avg Max Global Score: 0.18
+Score: 0.10/-0.01 -> Ep. 300/500 - Avg Max Global Score: 0.22
+Score: 2.60/2.60 -> Ep. 310/500 - Avg Max Global Score: 0.29
+Score: 2.60/2.60 -> Ep. 320/500 - Avg Max Global Score: 0.47
+Score: 2.60/2.60 -> Ep. 323/500 - Avg Max Global Score: 0.50
+```
+Environment solved (mean of 0.5 for 100 episodes) in **323** episodes!	Average Max Score: **0.50**
+
+After reach 0.50 the agents kept learning until the end of the training with no sign of reaching the plateau as shown in the graph below:
+
+Score: 2.60/2.60 -> Ep. **500/500** - Avg Max Global Score: **1.86**
+
+
+### Detailed execution logs: [here](/results/results-linux.txt)
+
+<h3 align="center">Score evolution</h3>
+<p align="center">
+  <img src="/images/score-evolution-linux.png" />
+</p>
+
+
 # Ideas for Future Work
 
