@@ -141,12 +141,37 @@ Score: 2.60/2.60 -> Ep. 323/500 - Avg Max Global Score: 0.50
 ```
 Environment solved (mean of 0.5 for 100 episodes) in **323** episodes!	Average Max Score: **0.50**
 
-After reach 0.50 the agents kept learning until the end of the training with no sign of reaching the plateau as shown in the graph below:
 
-Score: 2.60/2.60 -> Ep. **500/500** - Avg Max Global Score: **1.86**
+## Still Training to see if the Agents keep improving over time
+
+```
+Score: -0.01/0.10 -> Ep. 324/500 - Avg Max Global Score: 0.50
+Score: 2.60/2.60 -> Ep. 331/500 - Avg Max Global Score: 0.57
+Score: 2.60/2.60 -> Ep. 340/500 - Avg Max Global Score: 0.65
+Score: 2.60/2.60 -> Ep. 350/500 - Avg Max Global Score: 0.79
+Score: 0.00/0.09 -> Ep. 360/500 - Avg Max Global Score: 0.90
+Score: 0.09/0.10 -> Ep. 370/500 - Avg Max Global Score: 1.01
+Score: 2.60/2.60 -> Ep. 380/500 - Avg Max Global Score: 1.18
+Score: 2.60/2.50 -> Ep. 390/500 - Avg Max Global Score: 1.24
+Score: 1.00/0.99 -> Ep. 400/500 - Avg Max Global Score: 1.33
+Score: 2.70/2.60 -> Ep. 410/500 - Avg Max Global Score: 1.40
+Score: 0.19/0.30 -> Ep. 420/500 - Avg Max Global Score: 1.37
+Score: 0.10/-0.01 -> Ep. 430/500 - Avg Max Global Score: 1.47
+Score: 0.60/0.59 -> Ep. 440/500 - Avg Max Global Score: 1.49
+Score: 2.60/2.60 -> Ep. 450/500 - Avg Max Global Score: 1.45
+Score: 0.00/-0.01 -> Ep. 460/500 - Avg Max Global Score: 1.46
+Score: 2.70/2.60 -> Ep. 470/500 - Avg Max Global Score: 1.57
+Score: 0.89/0.90 -> Ep. 480/500 - Avg Max Global Score: 1.60
+Score: 2.60/2.70 -> Ep. 490/500 - Avg Max Global Score: 1.74
+Score: 2.60/2.60 -> Ep. 500/500 - Avg Max Global Score: 1.86
+```
+
+Avergage Max Score achieved: at Episode **500/500**: **1.86**
 
 
 ### Detailed execution logs: [here](/results/results-linux.txt)
+
+The agents kept learning until the end of the training with no sign of reaching the plateau as shown in the graph below:
 
 <h3 align="center">Score evolution</h3>
 <p align="center">
