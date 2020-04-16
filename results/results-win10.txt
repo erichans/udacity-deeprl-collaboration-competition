@@ -22,17 +22,17 @@ States look like: [ 0.          0.          0.          0.          0.          
  -0.          0.          6.83172083  6.         -0.          0.        ]
 States have length: 24
 Seed used: 0
-Agent 0 - Actor Local DDPG -> Actor(
+Agent 0 - Actor Local TD3 -> Actor(
   (l1): Linear(in_features=24, out_features=400, bias=True)
   (l2): Linear(in_features=400, out_features=300, bias=True)
   (l3): Linear(in_features=300, out_features=2, bias=True)
 )
-Agent 0 - Actor Target DDPG -> Actor(
+Agent 0 - Actor Target TD3 -> Actor(
   (l1): Linear(in_features=24, out_features=400, bias=True)
   (l2): Linear(in_features=400, out_features=300, bias=True)
   (l3): Linear(in_features=300, out_features=2, bias=True)
 )
-Agent 0 - Twin Critic Local DDPG -> TwinCritic(
+Agent 0 - Twin Critic Local TD3 -> TwinCritic(
   (l1): Linear(in_features=26, out_features=400, bias=True)
   (l2): Linear(in_features=400, out_features=300, bias=True)
   (l3): Linear(in_features=300, out_features=1, bias=True)
@@ -40,7 +40,7 @@ Agent 0 - Twin Critic Local DDPG -> TwinCritic(
   (l5): Linear(in_features=400, out_features=300, bias=True)
   (l6): Linear(in_features=300, out_features=1, bias=True)
 )
-Agent 0 - Twin Critic Target DDPG -> TwinCritic(
+Agent 0 - Twin Critic Target TD3 -> TwinCritic(
   (l1): Linear(in_features=26, out_features=400, bias=True)
   (l2): Linear(in_features=400, out_features=300, bias=True)
   (l3): Linear(in_features=300, out_features=1, bias=True)
@@ -48,17 +48,17 @@ Agent 0 - Twin Critic Target DDPG -> TwinCritic(
   (l5): Linear(in_features=400, out_features=300, bias=True)
   (l6): Linear(in_features=300, out_features=1, bias=True)
 )
-Agent 1 - Actor Local DDPG -> Actor(
+Agent 1 - Actor Local TD3 -> Actor(
   (l1): Linear(in_features=24, out_features=400, bias=True)
   (l2): Linear(in_features=400, out_features=300, bias=True)
   (l3): Linear(in_features=300, out_features=2, bias=True)
 )
-Agent 1 - Actor Target DDPG -> Actor(
+Agent 1 - Actor Target TD3 -> Actor(
   (l1): Linear(in_features=24, out_features=400, bias=True)
   (l2): Linear(in_features=400, out_features=300, bias=True)
   (l3): Linear(in_features=300, out_features=2, bias=True)
 )
-Agent 1 - Twin Critic Local DDPG -> TwinCritic(
+Agent 1 - Twin Critic Local TD3 -> TwinCritic(
   (l1): Linear(in_features=26, out_features=400, bias=True)
   (l2): Linear(in_features=400, out_features=300, bias=True)
   (l3): Linear(in_features=300, out_features=1, bias=True)
@@ -66,7 +66,7 @@ Agent 1 - Twin Critic Local DDPG -> TwinCritic(
   (l5): Linear(in_features=400, out_features=300, bias=True)
   (l6): Linear(in_features=300, out_features=1, bias=True)
 )
-Agent 1 - Twin Critic Target DDPG -> TwinCritic(
+Agent 1 - Twin Critic Target TD3 -> TwinCritic(
   (l1): Linear(in_features=26, out_features=400, bias=True)
   (l2): Linear(in_features=400, out_features=300, bias=True)
   (l3): Linear(in_features=300, out_features=1, bias=True)
