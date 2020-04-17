@@ -181,3 +181,13 @@ The agents kept learning until the end of the training with no sign of reaching 
 
 # Ideas for Future Work
 
+1. Hyperparameter tuning:
+    * Tuning alpha and beta from [Prioritized Experience Replay](https://arxiv.org/abs/1511.05952) to explore the trade off aggressiveness x robustness
+    * Find the optimal the Neural Network sizes for faster convergence and improved stability)
+2. Implement [Multi Agent DDPG(MADDPG)](https://arxiv.org/abs/1706.02275) algorithm to compare performance with the TD3
+3. Implement [Soft Actor-Critic](https://arxiv.org/abs/1801.01290) algorithm to compare performance with the TD3
+4. Implement [Alpha Zero in Continuous Action Space](https://arxiv.org/abs/1805.09613) algorithm (the continuous output version of original [Alpha Zero](https://arxiv.org/abs/1712.01815) algorithm) to compare performance with the TD3
+5. Implement [Multi Agent TD3(MATD3)](https://arxiv.org/abs/1910.01465) algorithm to compare performance with the TD3
+6. Stack a sequence of 4 states for 1 action so the network can learn sequence of events like in [Reward learning from human preferences and
+demonstrations in Atari](https://arxiv.org/pdf/1811.06521.pdf) paper
+7. Switch the agent to learn from pixels
